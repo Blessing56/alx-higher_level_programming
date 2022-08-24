@@ -3,5 +3,4 @@ def islower(c):
     if c >= chr(97) or c <= chr(122):
         return True
     else:
-        if c <= chr(97) or c >= chr(122):
-            return False
+        return False
