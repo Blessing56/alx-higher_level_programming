@@ -1,4 +1,7 @@
 #!/usr/bin/python3
-for i in range(10):
-    for j in range(1,10):
-        print('{}{}'.format(i,j))
+for i in range(8):
+    j = i
+    while i <= 8:
+        i = i + 1
+        print('{}{},'.format(j, i), end="")
+print('89')
