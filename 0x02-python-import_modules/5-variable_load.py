@@ -1,3 +1,3 @@
 #!/usr/bin/python3
-from variable_load_5 import a
-print('a'=a)
+import variable_load_5
+print('a = {}'.format(variable_load_5.a))
