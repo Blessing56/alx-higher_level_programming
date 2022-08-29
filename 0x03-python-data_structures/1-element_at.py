@@ -1,4 +1,9 @@
 #!/usr/bin/python3
 def element_at(my_list, idx):
-    for indx in my_list:
-        print('Element at inddex {:d} is {}'.format(indx, my_list[indx]))
+    for i in my_list:
+        if idx < 0:
+            return None
+        elif idx > len(my_list):
+            return None
+        else:
+            print('Element at index {:d} is {}'.format(idx, my_list[idx]))
