@@ -3,12 +3,12 @@
 def safe_print_list_integers(my_list=[], x=0):
     count = 0
 
-    try:
-        for item in my_list:
-        if count < x:
-            print("{:d}".format(item), end='')
-            count = count + 1
-        print()
-        return count
+    for item in my_list:
+        try:
+            if count < x:
+                print("{:d}".format(item), end='')
+                count = count + 1
     except (ValueError, TypeError):
-        pass
+        continue
+    print()
+    return count
