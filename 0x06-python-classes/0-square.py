@@ -2,5 +2,6 @@
 
 '''This module defines and new class'''
 
+
 class Square:
     pass
