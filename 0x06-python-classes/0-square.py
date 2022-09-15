@@ -1,7 +1,8 @@
 #!/usr/bin/python3
 
-'''This module defines and new class'''
+'''Creates a new class Square'''
 
 
 class Square:
+    '''Defines a square'''
     pass
