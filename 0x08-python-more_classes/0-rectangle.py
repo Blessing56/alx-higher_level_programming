@@ -3,6 +3,6 @@
 """Defining a Rectangle"""
 
 class Rectangle:
+
     """instantiating a Reectangle"""
-    
     pass
