@@ -1,12 +1,13 @@
 #!/usr/bin/python3
-"""defining a Rectangle"""
+"""Defining a Rectangle"""
 
 
 class Rectangle:
-    """instantiating a rectangle"""
+    """Defines a rectangle"""
 
     def __init__(self, width=0, height=0):
-        """
+        """Initialize a rectangle
+
         Args:
             width(int): the width of the rectangle
             height(int): the height of the rectangle
@@ -17,7 +18,7 @@ class Rectangle:
 
     @property
     def width(self):
-        """getter to retrieve the  private attribute width"""
+        """retrieves the  private attribute width"""
         return self.__width
 
     @width.setter
@@ -30,7 +31,7 @@ class Rectangle:
 
     @property
     def height(self):
-        """getter to retrieve the  private attribute height"""
+        """retrieves the  private attribute height"""
         return self.__height
 
     @height.setter
