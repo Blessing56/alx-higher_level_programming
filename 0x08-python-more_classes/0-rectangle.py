@@ -2,7 +2,7 @@
 
 """Defining a Rectangle"""
 
-class Rectangle:
 
+class Rectangle:
     """instantiating a Reectangle"""
     pass
