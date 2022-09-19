@@ -12,9 +12,9 @@ class Rectangle:
         self.width = width
         self.height = height
 
-    """getter to retrieve the  private attribute width"""
     @property
     def width(self):
+        """getter to retrieve the  private attribute width"""
         return self.__width
 
     """setter for width"""
@@ -26,9 +26,9 @@ class Rectangle:
             raise ValueError("width must be >= 0")
         self.__width = value
 
-    """getter to retrieve the  private attribute height"""
     @property
     def height(self):
+        """getter to retrieve the  private attribute height"""
         return self.__height
 
     """setter for height"""
