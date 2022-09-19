@@ -2,3 +2,4 @@
 
 """Defining a Rectangle"""
 class Rectangle:
+    pass
