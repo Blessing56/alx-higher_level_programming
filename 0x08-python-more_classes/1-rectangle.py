@@ -20,7 +20,6 @@ class Rectangle:
         """getter to retrieve the  private attribute width"""
         return self.__width
 
-    """setter for width"""
     @width.setter
     def width(self, value):
         if not isinstance(value, int):
@@ -34,7 +33,6 @@ class Rectangle:
         """getter to retrieve the  private attribute height"""
         return self.__height
 
-    """setter for height"""
     @height.setter
     def height(self, value):
         if not isinstance(value, int):
