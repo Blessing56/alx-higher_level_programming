@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Creates a Rectangle"""
+"""Creates a Rectangle class"""
 
 
 class Rectangle:
@@ -29,7 +29,7 @@ class Rectangle:
 
     @property
     def height(self):
-        """Gets/sets the  private attribute height"""
+        """Gets/sets the height of the rectangle"""
         return self.__height
 
     @height.setter
