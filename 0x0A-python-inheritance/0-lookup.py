@@ -3,6 +3,4 @@
 
 
 def lookup(obj):
-    lst = []
-    lst.append(obj)
-    return lst
+    return (dir(obj))
