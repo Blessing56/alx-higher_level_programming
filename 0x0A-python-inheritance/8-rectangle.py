@@ -12,10 +12,12 @@ class Rectangle(BaseGeometry):
     height: height of cthe rectangle
 
     """
+
     def __init__(self, width, height):
-        """calling the integer_validate method 
+        """calling the integer_validate method
         to validate the integer
         """
+
         super().integer_validator("width", width)
         self.__width = width
         super().integer_validator('height', height)
