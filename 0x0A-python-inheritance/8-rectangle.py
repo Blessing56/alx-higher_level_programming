@@ -31,12 +31,12 @@ class Rectangle(BaseGeometry):
     """Instantaiating the class Rectangle
 
     Args:
-        width: withd of the rectangle
-        height: height of cthe rectangle
-    """
 
+    width: withd of the rectangle
+    height: height of cthe rectangle
+
+    """
     def __init__(self, width, height):
         self.__width = width
         self.__height = height
-
         super().integer_validator('height', height)
