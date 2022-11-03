@@ -3,7 +3,7 @@
 --If the table second_table already exists, your script should not fail
 --You are not allowed to use the SELECT and SHOW statements
 
-CREATE TABLE second_table (
+CREATE TABLE IF NOT EXISTS second_table (
 	id int.
 	name varchar(256)
 	score int
