@@ -4,9 +4,9 @@
 --You are not allowed to use the SELECT and SHOW statements
 
 CREATE TABLE IF NOT EXISTS second_table (
-	id int,
-	name varchar(256),
-	score int,
+	id INT,
+	name VARCHAR(256),
+	score INT,
 );
 INSERT INTO second_table
 VALUES 	(1, "John", 10),
