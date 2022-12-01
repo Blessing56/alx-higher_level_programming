@@ -1,3 +1,4 @@
 #!/usr/bin/node
 
-console.log(process.argv[2], 'is', process.argv[3]);
+let myVar = "is"
+console.log(process.argv[2], myVar, process.argv[3]);
